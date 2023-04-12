@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#landpage{
+    background-color: #000000;
+    width: 100%;
+    height: 2000px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+#boxone{
+    background-color: rgb(47, 47, 47);
+    width: 100%;
+    height: 800px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+   
+
+    
+
+}
+
+#flexstudio{
+    width: 100%;
+    height: 100%;
+    opacity: 30%;
+
+    
+
+    
+}
+
+
