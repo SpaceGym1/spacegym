@@ -4,6 +4,16 @@
     margin: 0;
 }
 
+@font-face{
+    font-family: FONTE;
+    src: url(./fonts/montserrat-alternates-regular.otf);
+}
+
+@font-face{
+    font-family: bold;
+    src: url(./fonts/PostNoBillsJaffna-ExtraBold.ttf);
+}
+
 #landpage{
     background-color: #000000;
     width: 100%;
@@ -14,17 +24,9 @@
 }
 
 #boxone{
-    background-color: rgb(47, 47, 47);
+
     width: 100%;
     height: 800px;
-
-    display: grid;
-
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-
-   
-
     
 
 }
@@ -32,11 +34,126 @@
 #flexstudio{
     width: 100%;
     height: 100%;
-    opacity: 30%;
+    opacity: 50%;
 
-    
 
-    
 }
+
+#cab{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    color: white;
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 45px;
+
+    font-family: FONTE;
+    font-size: 80%;
+
+}
+
+#mid{
+    
+    width: 100%;
+    height: 50%;
+
+    position: absolute;
+    margin-top: 150px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: bold;
+
+
+}
+
+#spaceair{
+    background-color: #000000;
+    width: 15%;
+    height: 60%;
+    border-radius: 25px;
+
+    color: white;
+    
+    
+    
+
+}
+
+#spaceone{
+    background-color:  #000000;
+    width: 15%;
+    height: 60%;
+    border-radius: 25px;
+
+    color: white;
+}
+
+#spaceup{
+    background-color:  #000000;
+    width: 15%;
+    height: 60%;
+    border-radius: 25px;
+    
+
+    color: white;
+}
+
+
+
+.hamburguer-menu {
+    display: block;
+    width: 32px;
+    height: 35px;
+    position: relative;
+    cursor: pointer;
+    
+    
+    
+  }
+  
+  .bar {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 70%;
+    transform: translateY(-50%);
+    transition: transform 0.2s ease;
+    
+  }
+  
+  .bar:nth-child(2) {
+    top: 50%;
+  }
+  
+  .bar:last-child {
+    top: auto;
+    bottom: 0;
+  }
+  
+  .hamburguer-menu.active .bar:first-child {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .hamburguer-menu.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburguer-menu.active .bar:last-child {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+
+
+
+
+
 
 
