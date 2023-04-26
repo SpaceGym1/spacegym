@@ -6,7 +6,7 @@
 
 @font-face{
     font-family: FONTE;
-    src: url(./fonts/montserrat-alternates-regular.otf);
+    src: url(./fonts/BebasNeue-Regular.otf);
 }
 
 @font-face{
@@ -17,9 +17,7 @@
 #landpage{
     background-color: #000000;
     width: 100%;
-    height: 2000px;
-
-    
+    height: 3000px;
 }
 
 #boxone{
@@ -55,6 +53,46 @@
     z-index: 1;
 }
 
+.hamburguer-menu {
+  display: block;
+  width: 32px;
+  height: 35px;
+  position: relative;
+  cursor: pointer;
+}
+
+.bar {
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  top: 70%;
+  transform: translateY(-50%);
+  transition: transform 0.2s ease;
+}
+
+.bar:nth-child(2) {
+  top: 50%;
+}
+
+.bar:last-child {
+  top: auto;
+  bottom: 0;
+}
+
+.hamburguer-menu.active .bar:first-child {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburguer-menu.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburguer-menu.active .bar:last-child {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
 #mid{ 
     width: 100%;
     height: 45%;
@@ -69,14 +107,14 @@
     justify-content: space-around;
     align-items: center;
 
-    font-family: bold;
+    font-family: FONTE;
     z-index: 2;
 }
 
 #spaceair{
     background-color: #00000080;
     width: 15%;
-    height: 60%;
+    height: 230px;
     border-radius: 25px;
   
     color: white;
@@ -84,37 +122,36 @@
     
 
     font-style: normal;
-    font-size: 30px;
+    font-size: 35px;
     line-height: 45px;
     text-align: center;
     padding: 20px;
-}
-
+} 
 #spaceone{
     background-color:  #00000080;
     width: 15%;
-    height: 60%;
+    height: 230px;
     border-radius: 25px;
 
     color: white;
     z-index: 1;
     font-style: normal;
-    font-size: 30px;
+    font-size: 35px;
     line-height: 45px;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
 }
 
 #spaceup{
     background-color:  #00000080;
     width: 15%;
-    height: 60%;
+    height: 230px;
     border-radius: 25px;
     z-index: 1;
     
     color: white;
     font-style: normal;
-    font-size: 30px;
+    font-size: 35px;
     line-height: 45px;
     text-align: center;
     padding: 20px;
@@ -128,7 +165,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  font-family: bold;
+  font-family: FONTE;
 
   position: absolute;
   margin-top: 500px;
@@ -143,7 +180,7 @@
   color: white;
   z-index: 1;
   font-style: normal;
-  font-size: 30px;
+  font-size: 35px;
   line-height: 45px;
   text-align: center;
   padding: 20px;
@@ -158,65 +195,96 @@
   color: white;
   z-index: 1;
   font-style: normal;
-  font-size: 30px;
+  font-size: 35px;
   line-height: 45px;
   text-align: center;
   padding: 20px;
 }
 
-#line{
-  width: 80%;
-  margin-left: 120px;
-}
+#fy{
 
-#line2{
+  background-color: #d9d9d9;
+  width: 100%;
+  height: 750px;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: FONTE;
+
   position: absolute;
-  width: 70%;
-  margin-left: 200px;
-  margin-top: 150px;
+  margin-top: 910px;
+
+}
+
+#imgfy{
+  width: 60%;
+  height: 90%;
+  background-color: #000000;
+  background-image: url(./imgs/esbfy.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  
+  
+
+
+}
+
+#imgfy h1{
+  font-size: 100px;
+  position: relative;
+  left: 40px;
+  bottom: 30px;
+}
+
+#imgfy h2{
+  font-size: 30px;
+  position: relative;
+  right: 90px;
+  bottom: 30px;
+  text-align: left;
+  
 }
 
 
 
+#textfy{
+  background-color: #d9d9d9;
+  color: #000000;
 
-.hamburguer-menu {
-    display: block;
-    width: 32px;
-    height: 35px;
-    position: relative;
-    cursor: pointer;
-  }
-  
-  .bar {
-    width: 100%;
-    height: 3px;
-    background-color: white;
-    position: absolute;
-    left: 0;
-    top: 70%;
-    transform: translateY(-50%);
-    transition: transform 0.2s ease;
-  }
-  
-  .bar:nth-child(2) {
-    top: 50%;
-  }
-  
-  .bar:last-child {
-    top: auto;
-    bottom: 0;
-  }
-  
-  .hamburguer-menu.active .bar:first-child {
-    transform: translateY(8px) rotate(45deg);
-  }
-  
-  .hamburguer-menu.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-  
-  .hamburguer-menu.active .bar:last-child {
-    transform: translateY(-8px) rotate(-45deg);
+  width: 32%;
+  height: 90%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 100px;
+
+  position: relative;  
+}
+
+#textfy h3{
+  position: relative;
+  bottom: 40px;
   }
 
- 
+ button{
+  font-family: FONTE;
+  border: 1px solid #000000;
+  border-radius: 90px;
+  width: 230px;
+  height: 63px;
+  font-size: 35px;
+  position: relative;
+  top: 50px;
+
+ }
