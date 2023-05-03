@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+@font-face {
+    font-family: Russo ;
+    src: url(./fonts/RussoOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/MontserratAlternates-ExtraLight.ttf);
+}
+#paps{
+    width: 100%;
+    height: 99vh;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#forms{
+    width: 65%;
+    height: 99vh;
+
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#seusdados{
+    width: 100%;
+    height: 20%;
+
+    display:flex;
+    align-items: center;
+    padding: 6%;
+
+    font-family: Russo;
+    font-size: 14px;
+}
+
+#planos{
+    width: 35%;
+    height: 99vh;
+
+    background-color: #F2F2F2;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    font-family: Russo;
+    font-size: 15px;
+}
+
+#selecione{
+    width: 100%;
+    height: 8%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#basic0{
+    width: 100%;
+}
+#basic{
+    width: 67%;
+    height: 44%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+#adv{
+    width: 70%;
+    height: 44%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#blackrow{
+    width: 85%;
+    height: 4%;
+
+    color: #000;
+
+}
+
+#caixaforms{
+    width: 70%;
+    height: 75%;
+
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#textwhite{
+    color: #FFF;
+}
+
+h6{
+    color: #FFF;
+
+    font-family: Russo;
+    font-size: 10px;
+}
+
+#campoM{
+    background-color: #ebebeb;
+    width: 90%;
+    height: 38px;
+
+    font-family: Montserrat;
+}
+
+.campom{
+    background-color: #ebebeb98;
+    width: 40%;
+    height: 38px;
+
+    border-radius: 100px;
+    border: none;
+
+    padding: 2%;
+
+    font-family: Montserrat;
+    font-size: 11px;
+    font-weight: 200;
+}
+
+#campoM{
+    background-color: #ebebeb98;
+    border-radius: 100px;
+    border: none;
+
+    padding: 2%
+}
+
+h6{
+    padding: 0 0 0 58%;
+    display: flex;
+    
+}
+
+#excampo1{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nomezinho2{
+    width: 100%;
+}
+
+#excampo2{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#excampo3{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#excampo4{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#excampoM{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+#caixaforms hr{
+    position: absolute;
+    left: 172px;
+    width: 100%;
+    border: 1px solid #FFF;
+    transform: rotate(90deg);
+}
+
+.icon{
+    width: 17px;
+    height: 24px;
+}

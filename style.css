@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+button:hover {
+  background-color: black;
+  color: white;
+}
+
 @font-face{
     font-family: FONTE;
     src: url(./fonts/BebasNeue-Regular.otf);
@@ -50,16 +55,18 @@
     
 
     font-family: FONTE;
-    font-size: 80%;
+    font-size: 15px;
     font-weight: 400;
     line-height: 55px;
 
     z-index: 1;
 }
 
+
 #cab h1:hover{
   -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: rgb(0, 0, 0);
+  -webkit-text-stroke-color: white;
+  color: #000000;
 }
 
 .hamburguer-menu {
@@ -261,7 +268,11 @@
   
 }
 
-
+.link{
+  color: white;
+  text-decoration: none;
+  
+}
 
 #textfy{
   background-color: #d9d9d9;
@@ -315,7 +326,7 @@
  #contin h1{
   position: absolute;
   color: black;
-  left: 380px;
+  left:380px;
   top: 170px;
   z-index: 1;
 }
@@ -347,9 +358,9 @@
   z-index: 1;
  }
 
- #scheme :hover{
-  background-color: black;
-  color: white;
+ #scheme h3:hover{
+    color: white;
+    background-color: #000000;
  }
 
  #TE{
@@ -440,8 +451,6 @@
   right: 30px;
   border-radius: 0px 40px 0px 0px;
  }
-
- 
 
  #rds{
   background-color: #d9d9d9;
@@ -569,14 +578,8 @@
   width: 70%;
   margin-top:20px;
   margin-left: 40px;
- }
+}
 
- 
-
-
-
-
- 
-
+  
 
  
