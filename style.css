@@ -326,7 +326,7 @@ button:hover {
  #contin h1{
   position: absolute;
   color: black;
-  left:380px;
+  left: 350px;
   top: 170px;
   z-index: 1;
 }
@@ -358,7 +358,7 @@ button:hover {
   z-index: 1;
  }
 
- #scheme h3:hover{
+ #scheme :hover{
     color: white;
     background-color: #000000;
  }
