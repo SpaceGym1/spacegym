@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: Russo ;
-    src: url(./fontes/RussoOne-Regular.ttf);
+    src: url(./fonts/RussoOne-Regular.ttf);
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(./fontes/MontserratAlternates-ExtraLight.ttf);
+    src: url(./fonts/MontserratAlternates-ExtraLight.ttf);
 }
 #paps{
     width: 100%;
@@ -71,7 +71,7 @@
     width: 100%;
 }
 #basic{
-    width: 70%;
+    width: 67%;
     height: 44%;
 
     display: flex;

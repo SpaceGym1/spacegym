@@ -50,7 +50,7 @@
     
 
     font-family: FONTE;
-    font-size: 80%;
+    font-size: 15px;
     font-weight: 400;
     line-height: 55px;
 
@@ -59,7 +59,8 @@
 
 #cab h1:hover{
   -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: rgb(0, 0, 0);
+  -webkit-text-stroke-color: white;
+  color: #000000;
 }
 
 .hamburguer-menu {
@@ -261,7 +262,11 @@
   
 }
 
-
+.link{
+  color: white;
+  text-decoration: none;
+  
+}
 
 #textfy{
   background-color: #d9d9d9;
@@ -315,7 +320,7 @@
  #contin h1{
   position: absolute;
   color: black;
-  left: 450px;
+  left: 350px;
   top: 170px;
   z-index: 1;
 }
@@ -329,7 +334,7 @@
 
   display: grid;
   grid-template-columns:  0.5fr 4.5fr 6fr 0.5fr;
-  grid-template-rows: 3fr 9fr 8fr 2fr;
+  grid-template-rows: 3fr 8fr 8fr 2fr;
   font-family: Russo;
  }
 
@@ -435,7 +440,69 @@
   right: 30px;
   border-radius: 0px 40px 0px 0px;
  }
- 
 
+ .tboxp{
+  height: 100%;
+  width: 100%;
+  
+  grid-area: 3 / 3 / 4 / 4;
+  display: flex;
+  justify-content: space-evenly;
+  }
+  
+  #box1{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  
+  #boxin{
+    background-color: white;
+    width: 80%;
+    height: 65%;
+    border-radius: 80px;
+
+    display: flex;
+    flex-direction: column;
+
+  }
+
+
+
+  #over{
+    background-color: #7e7e7e;
+    width: 100%;
+    height: 40%;
+
+    background: rgba(126, 126, 126, 0.35);
+    border-radius: 80px 80px 0px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+  }
+
+  .sendin{
+    width: 60%;
+    height: 7%;
+    background: rgba(187, 187, 187, 0.5);
+    border: 1px solid #000000;
+    border-radius: 90px;
+  }
+  
+  #box2{
+    width: 45%;
+    height: 100%;
+  }
+ 
+  button:hover {
+    background-color: black;
+    color: white;
+}
 
  
