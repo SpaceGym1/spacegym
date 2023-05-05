@@ -79,7 +79,6 @@ button{
 
 #cab h1:hover{
   -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: white;
   color: #000000;
 }
 
